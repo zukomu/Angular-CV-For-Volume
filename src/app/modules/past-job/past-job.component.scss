@@ -1,0 +1,23 @@
+@import "../../../assets/scss/mixins-and-variables.scss";
+.job-info{
+    margin: $content-measurements;
+    .company-details{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        h2{
+            @include text-box;
+            height: fit-content;
+            margin: auto 0;
+        }
+        img{
+            @include text-box;
+            max-width: 550px;
+        }
+    }
+    .job-details{
+        display: flex;
+        flex-direction: column;
+        @include text-box;
+    }
+}

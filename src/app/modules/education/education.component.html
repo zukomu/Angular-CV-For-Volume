@@ -1,0 +1,23 @@
+<!-- <div class="education-details">
+    <label>Institution Name: {{education.institutionName}}</label>
+    <label>Location: {{education.location}}</label>
+    <label>Degree Name: {{education.degreeName}}</label>
+    <label>Grade: {{education.grade}}</label>
+    <label>{{education.startDate | date:'longDate'}} - {{education.endDate | date:'longDate'}}</label>
+    <label>Description: {{education.description}}</label>
+</div> -->
+<div class="education-info">
+    <div class="institution-details">
+        <h2>{{education.institutionName}}</h2>
+        <img [alt]="'logo for ' + education.institutionName" [src]="education.bigLogoURL">
+    </div>
+    
+    <div class="education-details">
+        <label>Location: {{education.location}}</label>
+        <label>Degree Name: {{education.degreeName}}</label>
+        <label>Grade: {{education.grade}}</label>
+        <label>{{education.startDate | date:'longDate'}} - {{education.endDate | date:'longDate'}}</label>
+        <label>Description: {{education.description}}</label>
+    </div>
+
+</div>

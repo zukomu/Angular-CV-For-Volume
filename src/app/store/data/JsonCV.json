@@ -1,0 +1,72 @@
+{
+  "name": "Spring McparlinJones",
+  "bio": "Front End Web Developer With 4+ Years Experience. Mostly worked in Angular in the past but am very interested in developing new skills. Passionate about efficient, accessible designs coming together to make a project as elegant as possible.",
+  "phone": "07498179384",
+  "email": "mcparlinjones@gmail.com",
+  "location": "Brighton",
+  "pronouns": [
+    "She",
+    "Her"
+  ],
+  "pastJobs": [
+    {
+      "companyName": "Sabs Travel Technologies",
+      "location": "Manchester",
+      "title": "Software Developer",
+      "startDateString": "2022-03-01",
+      "endDateString": "2023-04-28",
+      "description": "During my time at Sabs I was part of the team updating their flagship products Lightning, Scion, and Go2Book to Angular 12. I spent most of my time working in Angular 12 writing TypeScript code, and creating Web pages using HTML and SCSS. It gave me the opportunity to become familiar working with Angular Material and the Angular form system.",
+      "smallLogoURL": "https://media.licdn.com/dms/image/C4E0BAQHtlE1YcmriKg/company-logo_200_200/0/1519894637824?e=2147483647&v=beta&t=w_15ctaoKp9WbaEPnbreYL1enj3-tvdyobtkpjhDi1A",
+      "bigLogoURL": "https://help.sabstt.com/Images/SABS%20logopaths_bluetext_smaller_10cm.png"
+    },
+    {
+      "companyName": "Omnibus Solutions",
+      "location": "Manchester",
+      "title": "Junior Software Developer",
+      "startDateString": "2018-11-23",
+      "endDateString": "2022-02-28",
+      "description": "Learned to apply the things learned in University as a full stack developer. Also served as an introduction to industry practices such as Agile development. Primarily worked in Angular 6 using HTML, CSS and TypeScript to develop web based alternatives to some of the company's existing desktop applications (namely OmniRota, OmniBASE and OmniTimes).",
+      "smallLogoURL": "https://media.licdn.com/dms/image/C4D0BAQE6HFR203rfow/company-logo_200_200/0/1619772226433?e=2147483647&v=beta&t=SLI8cHK99TBoZaZh8QHtySzKM9k0JDDAguW900xd8Js",
+      "bigLogoURL": "https://omnibus.solutions/wp-content/themes/ep-morris/assets/images/omnibus-logo.png"
+    }
+  ],
+  "education": [
+    {
+      "institutionName": "University of Chester",
+      "location": "Chester",
+      "degreeName": "Bachelor’s of Science with Honours, Computer Science",
+      "grade": "2:2",
+      "startDateString": "2015-10-01",
+      "endDateString": "2018-06-01",
+      "description": "Spent 3 years studying Computer Science and developed a base level understanding of a variety of topics, including Web Development, Mobile Development, Network Management and Machine Learning.",
+      "smallLogoURL": "https://yt3.googleusercontent.com/ytc/AGIKgqMl6B1rq_HuFkozt5J7lbEdJM3BRV6uBnqFkgj_1A=s900-c-k-c0x00ffffff-no-rj",
+      "bigLogoURL": "https://cathedralsgroup.ac.uk/media/Institutional%20logos/UOC%20Logo_2010_cmyk.jpg"
+    },
+    {
+      "institutionName": "Liverpool Media Academy",
+      "location": "Liverpool",
+      "degreeName": "BTEC Level 3 Extended Diploma in Creative Media Production (Games Development)",
+      "grade": "Merit, Pass, Pass",
+      "startDateString": "2012-09-01",
+      "endDateString": "2014-06-01",
+      "description": "Started building up skills in Object Oriented Programming using Java. Also helped to foster a sense of creativity and develop in the art of designing accessible interfaces.",
+      "smallLogoURL": "https://leavingschool.co.uk/images/institutes/1615118876Liverpool%20Media%20Academy.png",
+      "bigLogoURL": "https://www.benson-signs.co.uk/images/business_news/liverpool-media-academy.jpg"
+    }
+  ],
+  "skills": [
+    "UI Design & Development.",
+    "Building and Maintaining Angular Applications.",
+    "Designing and implementing reactive interfaces.",
+    "Fast learner, able to pick up new software with ease.",
+    "History with both 2d and 3d image creation, manipulation and animation",
+    "A passion for creative design work",
+    "Some full stack experience with both C++ and NestJS"
+  ],
+  "personalAttributes": [
+    "Creative individual with a habit of finding innovative solutions to problems.",
+    "Passionate about a great many things, including photography, music and storytelling.",
+    "Deeply charismatic, quick to befriend people and a strong team player.",
+    "Strongly interested in learning new skills and exploring new avenues of employment." 
+  ]
+}

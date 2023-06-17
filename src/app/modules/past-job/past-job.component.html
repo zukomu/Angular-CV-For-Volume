@@ -1,0 +1,14 @@
+<div class="job-info">
+    <div class="company-details">
+        <h2>{{job.companyName}}</h2>
+        <img [alt]="'logo for ' + job.companyName" [src]="job.bigLogoURL">
+    </div>
+    
+    <div class="job-details">
+        <label>Location: {{job.location}}</label>
+        <label>Title: {{job.title}}</label>
+        <label>{{job.startDate | date:'longDate'}} - {{job.endDate | date:'longDate'}}</label>
+        <label>Description: {{job.description}}</label>
+    </div>
+
+</div>

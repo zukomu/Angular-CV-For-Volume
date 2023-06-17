@@ -1,0 +1,37 @@
+<div class="cv-info">
+    <div class="personal-details">
+        <img id="fadingImages" class="fading-images">
+        <div class="text-details">
+            <label>Phone Number: {{cv.phone | phoneNumber}}</label>
+            <label>Email Address: {{cv.email}}</label>
+            <label>Location: {{cv.location}}</label>
+            <label class="pronouns">Pronouns: 
+                <label *ngFor="let pronoun of cv.pronouns">{{pronoun}}</label>
+            </label>
+        </div>
+    </div>
+    <div class="links">
+        <div class="jobs">
+            <h2>Past Jobs</h2>
+            <div class="job-index">
+                <div *ngFor="let job of cvReader.pastJobs">
+                    <button class="job-edu-link" (click)="openJob(job.id)">
+                        <span>{{job.companyName}}</span>
+                        <img [alt]="'logo for ' + job.companyName" class="small-image" [src]="job.smallLogoURL">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="edus">
+            <h2>Educations</h2>
+            <div class="education-index">
+                <div *ngFor="let education of cvReader.educations">
+                    <button class="job-edu-link" (click)="openEdu(education.id)">
+                        <img [alt]="'logo for ' + education.institutionName" class="small-image" [src]="education.smallLogoURL">
+                        <span>{{education.institutionName}}</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
